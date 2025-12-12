@@ -1,0 +1,25 @@
+{
+  "name": "prak-7-tekweb",
+  "version": "0.0.0",
+  "private": true,
+  "homepage": "https://yuhuuu24.github.io/prak-7-tekweb/",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },  
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.16",
+    "esbuild": "^0.27.1",
+    "gh-pages": "^6.1.0",
+    "postcss": "^8.4.31",
+    "tailwindcss": "^3.3.5",
+    "vite": "^4.5.14"
+  }
+}
